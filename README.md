@@ -105,34 +105,6 @@ Feito por [Tolv Carmine Herlitz](https://github.com/seuusuario).
 Este script é de uso livre. Sinta-se à vontade para modificar e compartilhar, mas lembre-se de sempre **agir com ética e responsabilidade**.
 
 ---
-
-## 💻 **Como Copiar Arquivos para a VM**
-
-### Se estiver usando **VirtualBox**:
-
-1. **Instalar as "Guest Additions"** na sua VM.
-2. Ative a área de transferência compartilhada e arraste/solte arquivos entre a máquina host e a VM.
-
-### Se estiver usando **SSH** para se conectar à VM:
-
-Use `scp` (secure copy):
-
-```bash
-scp arquivo.sh usuario@ip_da_vm:/caminho/destino
-```
-
-Exemplo:
-
-```bash
-scp auditoria.sh tolv@192.168.0.20:/home/tolv/
-```
-
-Se você estiver usando WSL no Windows, o caminho pode ser assim:
-
-```bash
-scp /mnt/c/Users/SeuNome/Desktop/auditoria.sh tolv@192.168.0.20:/home/tolv/
-```
-
 ---
 
 ## 🔒 **Licença**
